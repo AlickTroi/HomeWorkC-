@@ -7,12 +7,16 @@ int num1 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("введите второе число");
 int num2 = int.Parse(Console.ReadLine()!);
-
+int max, min;
 if (num1 > num2)
 {
-    Console.WriteLine($"max = {num1} > min = {num2}");
+    max = num1;
+    min = num2;
 }
 else
 {
-    Console.WriteLine($"max = {num2} > min = {num1}");
+    max = num2;
+    min = num1;
 }
+
+Console.WriteLine($"max = {max} > min = {min}");

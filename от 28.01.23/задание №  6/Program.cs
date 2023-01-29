@@ -5,8 +5,8 @@ Console.Clear();
 Console.WriteLine("Введите число");
 int even = int.Parse(Console.ReadLine()!);
 
-even = even % 2;
-if (even == 1)
+
+if (even % 2 != 0)
 {
     Console.WriteLine("данное число не четное");
 }

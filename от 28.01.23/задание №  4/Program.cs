@@ -10,21 +10,14 @@ int num2 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("введите второе число");
 int num3 = int.Parse(Console.ReadLine()!);
- int max = num1;
- if (num1 < num2)
- {
-    max = num2;
- }
- else
- {
-
- }
- if (max < num3)
- {
-    max = num3;
- }
-else
+int max = num1;
+if (max < num2)
 {
-
+    max = num2;
 }
- Console.WriteLine($"самое большое число {max}");
+if (max < num3)
+{
+    max = num3;
+}
+
+Console.WriteLine($"самое большое число {max}");

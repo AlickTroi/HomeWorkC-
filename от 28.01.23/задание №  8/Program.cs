@@ -3,16 +3,9 @@
 Console.Clear();
 Console.WriteLine("Введите число");
 int allNumb = int.Parse(Console.ReadLine()!);
-int count = 1;
+int count = 2;
 while (count <= allNumb)
 {
-    if (count % 2 == 0)
-        {
-            Console.Write($"{count} ");
-        }
-    else
-    {
-
-    }    
-    count++;
+    Console.Write($"{count} ");
+    count += 2 ;
 }
