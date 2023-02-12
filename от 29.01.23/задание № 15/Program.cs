@@ -7,7 +7,7 @@ Console.Clear();
 Console.WriteLine("введите цифру от 1 до 7:");
 int week = int.Parse(Console.ReadLine()!);
 
-if (week == 1 || week == 2 || week == 3 || week == 4 || week == 5)
+if (week > 0 && week < 6)
 {
     Console.WriteLine("Не выходной, идем на работу");
 }
